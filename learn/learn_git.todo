@@ -1,5 +1,5 @@
-学习git
-git基本概念
+
+git基本概念:
     ✔ 什么是git分区 工作区 缓存区 本地库 远程库 @done (2018-7-1 11:15:44)
     ✔ git 远程仓库 github @done (2018-7-1 11:15:59)
     ☐ git 常用命令
@@ -7,6 +7,8 @@ git基本概念
         ☐ git add
         ☐ git commit
         ☐ git push
+        ☐ git merge 
+            ✔ Fast-forward @done (2018-7-2 14:33:01)
         ☐ git checkout
         ☐ git rebase
         ☐ git fetch
