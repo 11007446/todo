@@ -1,0 +1,26 @@
+python学习:
+1. 温习python函数
+    ☐ 函数参数 什么是 *arg 什么是**kwarg
+    ✔ python虚拟环境 通过配置%HOME%\pip\pip.ini 来实现 限制pip只能在已激活的虚拟环境中安装包 @done (2018-7-3 14:32:55)
+    ☐ 什么是pipenv 这是用来做什么的？
+    ☐ pipenv管理虚拟化环境与vscode整合
+
+方向:
+    ☐ 了解什么是python 自动化
+
+编写一个小工具 完成 python项目目录结构自动搭建
+目标:    
+    ☐ 输入指令如pystruct 以及相关参数 在当前目录构建一个标准的python项目目录结构，包含必须的文件 参考构建工具cookiecutter 
+    参考目录结构以及基础文件如下
+        README.md
+        LICENSE
+        setup.py
+        requirements.txt
+        sample/__init__.py
+        sample/core.py
+        sample/helpers.py
+        docs/conf.py
+        docs/index.rst
+        tests/test_basic.py
+        tests/test_advanced.py
+    ☐ 如何发布该小工具
