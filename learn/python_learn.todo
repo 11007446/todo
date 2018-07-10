@@ -1,0 +1,31 @@
+1. 温习python函数
+    ☐ 函数参数 什么是 *arg 什么是**kwarg 
+        python编码规范,推荐明确定义方法参数 
+    ☐ 什么是pipenv 这是用来做什么的？
+
+知识:
+    ☐ 了解什么是python 自动化 @high 
+
+学习python CLI:
+    ☐ 什么是python CLI
+    ☐ 编写一个小工具 输入指令如pystruct 以及相关参数 在当前目录构建一个标准的python项目目录结构，包含必须的文件 参考构建工具cookiecutter 
+    参考目录结构以及基础文件如下
+        README.md
+        LICENSE
+        setup.py
+        requirements.txt
+        sample/__init__.py
+        sample/core.py
+        sample/helpers.py
+        docs/conf.py
+        docs/index.rst
+        tests/test_basic.py
+        tests/test_advanced.py
+        ☐ 1.标准的python项目结构应该是什么样的?
+        ☐ 2.学习使用cookiecutter
+    ☐ 如何发布该小工具
+学习使用python web框架:
+    ☐ 1.django框架 
+    ☐ 2.flask
+Archive:
+  ✔ python虚拟环境 通过配置%HOME%\pip\pip.ini 来实现 限制pip只能在已激活的虚拟环境中安装包 @done (2018-7-3 14:32:55)
