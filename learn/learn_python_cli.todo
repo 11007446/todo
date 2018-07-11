@@ -2,9 +2,9 @@
     基础理论:
         ☐ 一个标准的Python项目应该具备什么文件结构以及文件    
         ☐ 什么是CLI,如何编写python cli, 并以命令行窗口命令的方式使用
-            以命令行命令使用:
-                ☐ setup.py
+
             学习使用库:
+                ☐ optparse
                 ☐ Clint
                 ☐ click
                     click使用了函数装饰器
@@ -31,6 +31,9 @@
                     
                 ☐ oslo.config
                 ☐ docopt 
+            程序发布:
+                ☐ setup.py
 
     项目目标1 项目结构搭建:
+        ☐ python 目录、文件操作
     
