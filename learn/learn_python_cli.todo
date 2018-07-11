@@ -1,0 +1,39 @@
+编写一个Python CLI工具项目:
+    基础理论:
+        ☐ 一个标准的Python项目应该具备什么文件结构以及文件    
+        ☐ 什么是CLI,如何编写python cli, 并以命令行窗口命令的方式使用
+
+            学习使用库:
+                ☐ optparse
+                ☐ Clint
+                ☐ click
+                    click使用了函数装饰器
+                    函数装饰器@是引用、调用它修饰的函数 python语法糖
+                    @de
+                    def func1:
+                    ----- 等价于 ------
+                    func1 = de(func1)
+                    #多装饰器
+                    @decorator_one
+                    @decorator_two
+                    def func():
+                        pass
+                    ----- 等价于 ------
+                    func = decorator_one(decorator_two(func))
+                    #装饰器带参数
+                    @decorator(arg1, arg2)
+                    def func():
+                        pass
+                    ----- 等价于 ------
+                    func = decorator(arg1,arg2)(func) #此处decorator(arg1,arg2)执行结果必须返回一个新decorator     
+                    在类方法使用装饰器的场景中需要注意， 类方法第一个参数固定为self。 所以装饰器发放第一个参数必须也是self 
+                    可以使用 *args, **kwargs 来涵盖函数以及类方法的装饰器参数应用场景
+                    
+                ☐ oslo.config
+                ☐ docopt 
+            程序发布:
+                ☐ setup.py
+
+    项目目标1 项目结构搭建:
+        ☐ python 目录、文件操作
+    
