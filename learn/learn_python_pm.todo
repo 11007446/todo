@@ -1,0 +1,12 @@
+python 包管理 与 vscode python 开发:
+    pipenv:  
+    python虚拟环境 用于构建开发用的独立环境，不同的项目所下载的依赖包各自独立，互不干涉。
+        ✔ pipenv环境搭建 @done(18-07-12 09:25)
+        ✔ pipenv 安装源切换 @done(18-07-12 09:26)
+        修改pipfile 指定源
+    vscode:
+        ✔ 调整调试配置 @done(18-07-12 09:28)
+        launch.json设置 argu 赋值命令行参数
+python 包发布:
+        ☐ setup.py
+
