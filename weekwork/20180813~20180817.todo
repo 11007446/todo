@@ -1,0 +1,34 @@
+本周工作(20180813~20180817):
+    主要任务:
+        ☐ 任务书新增一套《上海市科学技术委员会港澳台科技合作项目》
+            文字需要修改页面:
+                ✔ 1、表1-项目（课题）预算表 @done(18-08-13 10:40)
+                    kyydb_form7.asp
+                    kyydb_form7_print.asp
+                ✔ 2、表3-测试化验加工费预算明细表 @done(18-08-13 16:36)
+                    kyydb_form3.asp
+                    kyydb_form3_print.asp
+                ✔ 3、表6-合作基本信息表 @done(18-08-13 16:36)
+                    kyydb_form11.asp
+                    kyydb_form11_print.asp
+                ✔ 4、表9-预算说明书 @done(18-08-13 16:36)
+                    projComment.asp
+                    projComment_print.asp
+                ✔ 5、封面和填写说明 @done(18-08-13 16:36)
+                    dwform_print.asp
+                ✔ 6、计划任务书提纲 @done(18-08-14 11:04)
+                    包含在填写说明中    
+                ✔ 7、任务书打印 （D:\cvsproject\www2006\onlineguide\kyrwdb_2018\rws25\dwform_print.asp） @done(18-08-13 10:32)
+                    dwform_print.asp
+            其他需要修改页面:
+                ✔ 1、wwwFunction.asp 增加套数路由 @done(18-08-15 09:49)
+                ✔ 2、dwform_proj.asp 是否涉及港澳台合作 文字修改 @done(18-08-15 09:49)
+                ✔ 3、新增rwsBar25.asp 修改菜单项中国际合作->港澳台合作， 并修改14个界面导入连接 @done(18-08-15 09:49)
+                ✔ list.asp 修改国际合作表名称 @done(18-08-15 17:07)
+
+    穿插任务:
+        科技企业统计年报三家比价文件准备:
+           ✔ 营业执照报价单 @done(18-08-13 17:02) （东西在柜子里面）
+           ✔ 采购申请表 @done(18-08-13 17:03)
+           ✔ 供应商选择理由 @done(18-08-13 17:03)
+           ☐ 等待李伟诚确认
