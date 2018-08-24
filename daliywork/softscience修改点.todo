@@ -1,6 +1,37 @@
 修改点:
-    ☐ partview数据库中增加对应标志位值3  1 超级管理员 2 查勘人员 3 部分查看人员 5 终审管理员 -1 无效账号
+    ☐ partview数据库中增加对应标志位值-2  1 超级管理员 2 查勘人员 3 部分查看人员 5 终审管理员 -1 无效账号
+        涉及修改
+        UtilTools
+        Role
+    
     ☐ 增加1个角色 UNAUTHUSER 判断逻辑改为非 1 2 5即 UNAUTHUSER 其在查看项目信息权限等同partview 
+        涉及修改
+        ProjectManageLogin
     ☐ 赋权转向判断条件改为 是 UNAUTHUSER 以及 拥有赋权权限
-    ☐ 黄凯董美娣账号赋权为partview,避免被程序判断成赋权转向,如此可以在不影响正常角色赋权情况下,避免根权限角色因包含所有权限导致进入赋权转向的问题
+
+    ☐ 黄凯董美娣等账号账号赋权为partview,避免被程序判断成赋权转向,如此可以在不影响正常角色赋权情况下,避免根权限角色因包含所有权限导致进入赋权转向的问题
+        --赋权脚本
+        --UPDATE sfsc_role
+        --SET
+        --roleFlag = '3'
+        --WHERE accountName IN ('mddong','huangkai','lwc','xming')	
+
+
+        涉及jsp
+        Checking in web/secure/softscience/processManage/projectManage/content/viewFeedbackManage.jsp;
+        /project/softScience/softScience/web/secure/softscience/processManage/projectManage/content/viewFeedbackManage.jsp,v  <--  viewFeedbackManage.jsp
+        new revision: 1.9; previous revision: 1.8
+        done
+        Checking in web/secure/softscience/processManage/projectManage/content/mainForm.jsp;
+        /project/softScience/softScience/web/secure/softscience/processManage/projectManage/content/mainForm.jsp,v  <--  mainForm.jsp
+        new revision: 1.8; previous revision: 1.7
+        done
+        Checking in web/secure/softscience/processManage/projectManage/content/mainFormView.jsp;
+        /project/softScience/softScience/web/secure/softscience/processManage/projectManage/content/mainFormView.jsp,v  <--  mainFormView.jsp
+        new revision: 1.2; previous revision: 1.1
+        done
+        Checking in web/secure/softscience/processManage/projectManage/menuBar.jsp;
+        /project/softScience/softScience/web/secure/softscience/processManage/projectManage/menuBar.jsp,v  <--  menuBar.jsp
+        new revision: 1.6; previous revision: 1.5
+        done
 
